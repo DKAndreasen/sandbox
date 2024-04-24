@@ -29,8 +29,8 @@ torch.set_grad_enabled(False)
 batch_size = 16
 md_summeries = {}
 networks = [
-    #'KennethTM/bert-base-uncased-danish',  # Danish bert model with danish tokenizer
-    #'bert-base-multilingual-cased',  # The multilingual model that BERTScore suggest for other languages (ie. also Danish)
+    'KennethTM/bert-base-uncased-danish',  # Danish bert model with danish tokenizer
+    'bert-base-multilingual-cased',  # The multilingual model that BERTScore suggest for other languages (ie. also Danish)
     'AI-Sweden-Models/roberta-large-1160k',
     "KennethEnevoldsen/dfm-sentence-encoder-large-exp1",
     "KennethEnevoldsen/dacy-large-encoder",
