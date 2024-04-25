@@ -34,6 +34,7 @@ networks = [
     'AI-Sweden-Models/roberta-large-1160k',
     "KennethEnevoldsen/dfm-sentence-encoder-large-exp1",
     "KennethEnevoldsen/dacy-large-encoder",
+    "google/mt5-base",
     # These models break something
     #'vesteinn/DanskBERT'  # RuntimeError: The expanded size of the tensor (640) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [16, 640].  Tensor sizes: [1, 514],
 ]
